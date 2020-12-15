@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initAnimatro() {
-
+		//我是23岁的罗传波
         //四种属性动画
         ObjectAnimator alpha = ObjectAnimator.ofFloat(imageview_main, View.ALPHA, 1, 0, 1, 0, 1);
         ObjectAnimator translation_x = ObjectAnimator.ofFloat(imageview_main, View.TRANSLATION_X, 1, 20, 30, 60, -60, -30, -20, 1);
